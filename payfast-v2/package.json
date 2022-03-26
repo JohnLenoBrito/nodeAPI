@@ -1,0 +1,26 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "API de Pagamento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Marco Bruno",
+  "license": "MPL-2.02",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-load": "^1.1.16",
+    "express-validator": "^3.2.1",
+    "mysql": "^2.14.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
